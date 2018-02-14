@@ -1,0 +1,183 @@
+body, main {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    width: 100vw;
+    height: auto;
+    position: relative;
+    display: block;
+    margin: 0 0 4em 0;
+}
+
+hr {
+    margin: 5vh 0;
+    width: 50%;
+    position: relative;
+    left: 25%;
+}
+
+img {
+    width: 25%;
+    height: auto;
+}
+
+.hero-pic {
+    width: 100vw;
+    height: auto;
+    z-index: -1;
+    position: relative;
+    transform: translateY(-25.25%);
+}
+svg {
+    fill: aliceblue;
+}
+
+.logo {
+    width: 30%;
+    height: auto;
+    z-index: 100;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+}
+
+.drmiller {
+    position: absolute;
+    top: 36%;
+    left: 36%;
+    font-size: 3.2em;
+    color: white;
+    font-family: 'Alegreya SC';
+    font-weight: 100;
+}
+
+.tel {
+    position: absolute;
+    top: 61%;
+    left: 0%;
+    color: white;
+    font-family: 'Alegreya SC';
+    font-weight: 100;
+    font-size: 3em;
+    background: linear-gradient(45deg, #0cdaff, #00ffcb);
+    padding: 0.25em 0.75em;
+}
+
+.about img {
+    clip-path: circle(10em at center);
+    position: relative;
+    top: 10%;
+    left: 38%;
+}
+
+.about h1 {
+    font-family: 'Segoe Script';
+    font-size: 6em;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+    background: -webkit-linear-gradient(135deg, #0cdaff, #00ffcb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0 0 2em 0;
+}
+
+.about p {
+    font-size: 1.2em;
+    width: 70vw;
+    height: auto;
+    text-align: center;
+    position: relative;
+    left: 15%;
+    top: 10%;
+    margin: 2em 0;
+    transform: translateY(4em);
+}
+
+.about h3 {
+    font-family: 'Segoe Script';
+    font-size: 2em;
+    position: relative;
+    left: 35%;
+    bottom: 0%;
+    margin: 5em 0 0 0;
+}
+
+.about ul {
+    font-size: 1.2em;
+    position: relative;
+    bottom: 20%;
+    left: 35%;
+    margin: 3em 0;
+}
+
+.technology {
+    margin: 3em 0;
+}
+
+.technology img {
+    width: 50vw;
+    height: 100%;
+}
+
+.technology h1, h3 {
+    position: absolute;
+    left: 55%;
+    top: 0;
+    font-family: 'Segoe Script';
+    font-size: 2em;
+}
+
+.technology h1 {
+    font-size: 6em;
+    background: -webkit-linear-gradient(15deg, #0cdaff, #00ffcb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.technology h3 {
+    top: 30%;
+}
+
+.technology ul {
+    position: absolute;
+    left: 55%;
+    top: 50%;
+    font-size: 1.2em;
+}
+
+.ceramists {
+    width: 275%;
+    height: auto;
+    position: relative;
+    left: 15%;
+}
+
+.ceramists h1 {
+    font-size: 6em;
+    font-family: 'Segoe Script';
+    background: -webkit-linear-gradient(105deg, #0cdaff, #00ffcb);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: absolute;
+    top: 10%;
+    left: 7%;
+}
+
+.ceramists h3 {
+    font-family: 'Alegreya SC';
+    font-size: 2em;
+    font-weight: 100;
+    color: white;
+    position: absolute;
+    top: 40%;
+    left: 4%;
+    width: 50vw;
+    text-align: center;
+}
