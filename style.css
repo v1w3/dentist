@@ -90,7 +90,7 @@ svg {
     top: 35%;
     left: 35%;
     background: -webkit-linear-gradient(135deg, #0cdaff, #00ffcb);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     margin: 0 0 2em 0;
 }
@@ -144,7 +144,7 @@ svg {
 .technology h1 {
     font-size: 6em;
     background: -webkit-linear-gradient(15deg, #0cdaff, #00ffcb);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
@@ -170,7 +170,7 @@ svg {
     font-size: 6em;
     font-family: 'Segoe Script';
     background: -webkit-linear-gradient(105deg, #0cdaff, #00ffcb);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
     top: 10%;
@@ -193,7 +193,7 @@ svg {
     font-size: 6em;
     font-family: 'Segoe Script';
     background: -webkit-linear-gradient(225deg, #0cdaff, #00ffcb);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
     top: 1%;
@@ -245,7 +245,7 @@ svg {
     font-size: 6em;
     font-family: 'Segoe Script';
     background: -webkit-linear-gradient(275deg, #0cdaff, #00ffcb);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
     top: 12%;
