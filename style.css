@@ -248,7 +248,7 @@ svg {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     position: absolute;
-    top: 20%;
+    top: 12%;
     left: 36%;
     transform: translateY(-50%);
 }
@@ -259,19 +259,38 @@ svg {
     font-weight: 100;
     color: white;
     position: absolute;
-    top: 35%;
+    top: 22%;
     left: 25%;
     width: 50vw;
     text-align: center;
+}
+
+.contact p{
+    font-family: 'Roboto Slab'
 }
 
 .find-us {
     position: relative;
     top: 50%;
     left: 10%;
-    transform: translateY(10vh);
+    transform: translateY(5vh);
 }
 
 .about, .ceramists, .consulation, .technology, .contact {
     margin: 10em 0;
+}
+
+#map {
+    width: 40vw;
+    height: 60vh;
+    background-color: grey;
+    position: relative;
+    left: 50%;
+    top: 0%;
+    transform: translateY(-10vh);
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8em;
 }
