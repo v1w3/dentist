@@ -549,8 +549,9 @@ footer {
         margin: 3em;
     }
 }
-
-@media only screen 
+/* Landscape */
+/* Declare the same value for min- and max-width to avoid colliding with desktops */
+/* @media only screen 
   and (min-device-width: 1366px) 
   and (max-device-width: 1366px) 
   and (orientation: landscape) 
@@ -854,4 +855,519 @@ footer {
         font-size: 1em;
         margin: 2em 0;
     }
-}
+} */
+
+/* Portrait */
+/* @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .hero-pic {
+        width: 100vw;
+        height: auto;
+        z-index: -1;
+        position: relative;
+        transform: translateY(0%);
+    }
+    .logo {
+        width: 30%;
+        height: auto;
+        z-index: 100;
+        position: absolute;
+        top: 35%;
+        left: 35%;
+    }
+    .drmiller {
+        position: absolute;
+        top: 51%;
+        left: 35%;
+        font-size: 1.6em;
+        color: white;
+        font-family: 'Alegreya SC';
+        font-weight: 100;
+    }
+    .about, .ceramists, .consulation, .technology, .contact {
+        margin: 10em 0;
+    }
+    .about img {
+        clip-path: circle(5em at center);
+        position: relative;
+        top: 0%;
+        left: 38%;
+        transform: translateY(-8em);
+    }
+    hr {
+        display: none;
+    }
+    .tel {
+        position: absolute;
+        top: 81.25%;
+        left: 0%;
+        color: white;
+        font-family: 'Alegreya SC';
+        font-weight: 100;
+        font-size: 2em;
+        background: linear-gradient(45deg, #0cdaff, #00ffcb);
+        padding: 0.25em 0.75em;
+    }
+    .about h1 {
+        font-family: 'Segoe Script';
+        font-size: 5em;
+        position: absolute;
+        top: 9%;
+        left: 26%;
+        background: -webkit-linear-gradient(135deg, #0cdaff, #00ffcb);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin: 0 0 2em 0;
+    }
+    .about p {
+        font-size: 1.2em;
+        width: 70vw;
+        height: auto;
+        text-align: center;
+        position: relative;
+        left: 15%;
+        top: 9%;
+        margin: 2em 0;
+        transform: translateY(-5em);
+    }
+    .about h3 {
+        font-family: 'Segoe Script';
+        font-size: 2em;
+        position: relative;
+        left: 18%;
+        margin: 0;
+        transform: translateY(-3em);
+    }
+    .about ul {
+        font-size: 1.2em;
+        position: relative;
+        bottom: 20%;
+        left: 20%;
+        transform: translateY(-5em);
+        margin: 0;
+    }
+    .technology h1 {
+        font-size: 5em;
+        background: -webkit-linear-gradient(15deg, #0cdaff, #00ffcb);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .technology h1, h3 {
+        position: absolute;
+        left: 12%;
+        top: 20%;
+        font-family: 'Segoe Script';
+    }
+    .technology h3 {
+        top: 55%;
+        line-height: 1em;
+        background: white;
+        padding: 1em;
+        width: 65vw;
+    }
+    .technology ul {
+        position: absolute;
+        left: 13%;
+        top: 93%;
+        font-size: 1.2em;
+    }
+    .ceramists {
+        width: 325%;
+        height: auto;
+        position: relative;
+        left: 10%;
+        top: 35%;
+    }
+    .ceramists h1 {
+        font-size: 5em;
+        font-family: 'Segoe Script';
+        background: -webkit-linear-gradient(105deg, #0cdaff, #00ffcb);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: absolute;
+        top: 0%;
+        left: 4%;
+    }
+    .consulation, .contact {
+        top: 50%;
+    }
+    .consulation h1 {
+        font-size: 5em;
+        font-family: 'Segoe Script';
+        background: -webkit-linear-gradient(225deg, #0cdaff, #00ffcb);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: absolute;
+        top: 1%;
+        left: 21%;
+        line-height: 1em;
+        transform: translateY(-50%);
+    }
+    .consulation h3 {
+        font-size: 1.2em;
+        font-family: 'Segoe Script';
+        position: absolute;
+        left: 30%;
+        top: 56%;
+        width: 60vw;
+    }
+    .consulation ul {
+        position: absolute;
+        left: 5%;
+        top: 100%;
+        transform: translateY(8em);
+        font-size: 1.2em;
+    }
+    .consulation h4 {
+        position: absolute;
+        left: 30%;
+        top: 100%;
+        transform: translateY(6em);
+    }
+    .consulation p {
+        position: absolute;
+        left: 7%;
+        top: 37%;
+        transform: translateY(32em);
+    }
+    .consulation h5 {
+        position: absolute;
+        left: 7%;
+        top: 83%;
+        transform: translateY(30em);
+    }
+    .contact img {
+        width: 70%;
+        height: auto;
+        position: relative;
+        left: 15%;
+        transform: translateY(25em);
+    }
+    .contact h1 {
+        font-size: 5em;
+        font-family: 'Segoe Script';
+        background: -webkit-linear-gradient(275deg, #0cdaff, #00ffcb);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: absolute;
+        top: 12%;
+        left: 25%;
+        transform: translateY(3em);
+    }
+    .location-intro {
+        font-family: 'Alegreya SC';
+        font-size: 1.2em;
+        font-weight: 100;
+        color: white;
+        position: absolute;
+        top: 49%;
+        left: 22%;
+        width: 95vw;
+        text-align: center;
+    }
+    #map {
+        width: 40vw;
+        height: 20vh;
+        background-color: grey;
+        position: relative;
+        left: 50%;
+        top: 0%;
+        transform: translateY(30vh);
+    }
+    .location-intro {
+        font-family: 'Alegreya SC';
+        font-size: 1em;
+        font-weight: 100;
+        color: white;
+        position: absolute;
+        top: 80%;
+        left: 22%;
+        width: 55vw;
+        text-align: center;
+    }
+    .contact h1 {
+        font-size: 5em;
+        font-family: 'Segoe Script';
+        background: -webkit-linear-gradient(275deg, #0cdaff, #00ffcb);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: absolute;
+        top: 20%;
+        left: 25%;
+        transform: translateY(3em);
+    }
+    .contact p {
+        font-family: 'Alegreya SC';
+    }
+    .find-us {
+        position: relative;
+        top: 50%;
+        left: 10%;
+        transform: translateY(48vh);
+        width: 35vw;
+    }
+    footer {
+        text-align: center;
+        font-size: 0.9em;
+        position: relative;
+        top: 75%;
+        margin: 2em 0;
+    }
+} */
+
+/* Portrait */
+/* @media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px) 
+  and (orientation: portrait) 
+  and (-webkit-min-device-pixel-ratio: 2) {
+    body, main {
+        width: 100wv;
+        height: 100vh;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .hero-pic {
+        width: 150vw;
+        height: auto;
+        z-index: -1;
+        position: relative;
+        transform: translate(-10%,-5%);
+    }
+    .logo {
+        width: 35%;
+        height: auto;
+        z-index: 100;
+        position: absolute;
+        top: 25%;
+        left: 35%;
+    }
+    .drmiller {
+        position: absolute;
+        top: 38%;
+        left: 36%;
+        font-size: 2.5em;
+        color: white;
+        font-family: 'Alegreya SC';
+        font-weight: 100;
+    }
+    .tel {
+        position: absolute;
+        top: 81.25%;
+        left: 0%;
+        color: white;
+        font-family: 'Alegreya SC';
+        font-weight: 100;
+        font-size: 3em;
+        background: linear-gradient(45deg, #0cdaff, #00ffcb);
+        padding: 0.25em 0.75em;
+    }
+    .about h1 {
+        font-family: 'Segoe Script';
+        font-size: 6em;
+        position: absolute;
+        top: 15%;
+        left: 29%;
+        background: -webkit-linear-gradient(135deg, #0cdaff, #00ffcb);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    .about p {
+        font-size: 1.4em;
+        width: 80vw;
+        height: auto;
+        text-align: center;
+        position: relative;
+        left: 10%;
+        top: 10%;
+        transform: translateY(-2em);
+    }
+    .about h3 {
+        font-family: 'Segoe Script';
+        font-size: 2em;
+        position: relative;
+        left: 25%;
+        top: 0%;
+        transform: translateY(-5em);
+    }
+    .about ul {
+        font-size: 1.4em;
+        position: relative;
+        bottom: 0%;
+        left: 25%;
+        transform: translateY(-8em);
+    }
+    .technology img {
+        width: 50vw;
+        height: 100%;
+        transform: translateY(-13em);
+    }
+    .technology h1, h3 {
+        position: absolute;
+        left: 20%;
+        top: 0;
+        font-family: 'Segoe Script';
+        font-size: 2em;
+    }
+    .technology h1 {
+        font-size: 6em;
+        transform: translateY(-0.35em);
+    }
+    .technology h3 {
+        width: 60vw;
+        background: white;
+        padding: 1em;
+
+    }
+    .technology ul {
+        position: absolute;
+        left: 35%;
+        top: 55%;
+        font-size: 1.4em;
+        width: 58vw;
+        background: white;
+        padding: 2em;
+    }
+    hr {
+        display: none;
+    }
+    .ceramists {
+        position: relative;
+        top: 20%;
+    }
+    .ceramists img {
+        width: 30%;
+        height: auto;
+        position: relative;
+        left: 0;
+        transform: translateX(-4em);
+    }
+    .ceramists h3 {
+        font-family: 'Alegreya SC';
+        font-size: 1.6em;
+        font-weight: 100;
+        color: white;
+        position: absolute;
+        top: 35%;
+        left: 2%;
+        width: 60vw;
+        text-align: center;
+    }
+    .ceramists h1 {
+        font-size: 6em;
+        font-family: 'Segoe Script';
+        background: -webkit-linear-gradient(105deg, #0cdaff, #00ffcb);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: absolute;
+        top: 0%;
+        left: 4%;
+    }
+    .consulation img {
+        width: 50%;
+        position: relative;
+        top: 20em;
+        left: 31em;
+    }
+    .consulation h1 {
+        font-size: 6em;
+        font-family: 'Segoe Script';
+        background: -webkit-linear-gradient(225deg, #0cdaff, #00ffcb);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: absolute;
+        top: 45%;
+        line-height: 0.8em;
+        left: 5%;
+    }
+    .consulation h3 {
+        font-size: 1.4em;
+        font-family: 'Segoe Script';
+        position: absolute;
+        left: 4%;
+        top: 65%;
+        width: 62vw;
+        background: white;
+        padding: 1em;
+    }
+    .consulation h4 {
+        position: absolute;
+        left: 6%;
+        top: 95%;
+    }
+    .consulation ul {
+        position: absolute;
+        left: 4%;
+        top: 98%;
+        font-size: 1.4em;
+        background: white;
+        padding: 2em;
+    }
+    .consulation p {
+        position: absolute;
+        left: 6%;
+        top: 64em;
+    }
+    .consulation h5 {
+        position: absolute;
+        left: 6%;
+        top: 78.5em;
+    }
+    .contact img {
+        width: 80%;
+        height: auto;
+        position: relative;
+        left: 10%;
+        top: 25em;
+    }
+    .contact h1 {
+        font-size: 6em;
+        font-family: 'Segoe Script';
+        background: -webkit-linear-gradient(275deg, #0cdaff, #00ffcb);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        position: absolute;
+        top: 44%;
+        left: 29%;
+        transform: translateY(-50%);
+    }
+    .location-intro {
+        font-family: 'Alegreya SC';
+        font-size: 1.2em;
+        font-weight: 100;
+        color: white;
+        position: absolute;
+        top: 55%;
+        left: 18%;
+        width: 65vw;
+        text-align: center;
+    }
+    #map {
+        width: 65vw;
+        height: 30vh;
+        background-color: grey;
+        position: relative;
+        left: 0%;
+        top: 0%;
+        transform: translateY(30vh);
+    }
+    .find-us {
+        position: relative;
+        top: 50%;
+        left: 10%;
+        transform: translateY(29vh);
+        font-size: 1.3em;
+    }
+    footer {
+        position: relative;
+        text-align: center;
+        font-size: 0.8em;
+        top: 32em;
+        font-size: 1.05em;
+        margin: 3em;
+    }
+} */
